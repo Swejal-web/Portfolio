@@ -1,0 +1,54 @@
+[
+{
+    "projectName": "Tour booking site",
+    "stack": "Node",
+    "description":" A Tour booking site to book the destinations to want to visit!!!",
+    "note": "Note:- Live version will be available soon..",
+    "tools":["Node","Pug","Mongodb","Css","Stripe","NodeMailer"],
+    "githubLink": "https://github.com/Swejal-web/Tour-Site",
+    "live":"cdhfsk",
+    "imageCover": "/natours.jpg"
+    },
+    {
+        "projectName": "Netflix Clone",
+        "stack": "React",
+        "description":"This is the clone of the Netflix site using Styled component and React",
+        "note": "Note:- Live version will be available soon..",
+        "tools":["React","Styled Component","Context Api","Css","Firebase"],
+        "githubLink": "https://github.com/Swejal-web/Netflix-clone",
+        "live":"cdhfsk",
+        "imageCover": "/netflix.png"
+    },
+    {   "projectName": "Speech Recognition System",
+        "stack": "Machine Learning",
+        "description":"This is an application built to predict some specific words recorded by the user.",
+        "desclaimer": "This was my minor project in college.It was completed with the help of my other 2 team members",
+        "note": "Note:- Live version will be available soon..",
+        "tools":["Tensorflow","Keras","Flask"],
+        "githubLink": "https://github.com/Swejal-web/Speech-Recognition-System",
+        "live":"cdhfsk",
+        "imageCover": "/speech.png"
+    },
+    {
+        "projectName": "CRUD Application",
+        "stack": "React",
+        "description":"This is a simple crud application using React and Redux",
+        "note": "Note:- Live version will be available soon..",
+        "tools":["React","Semantic UI","Redux","Google Auth"],
+        "githubLink": "https://github.com/Swejal-web/Project-Streams",
+        "live":"cdhfsk",
+        "imageCover": "/streams.PNG"
+    },
+   
+    {
+        "projectName": "Mini Youtube",
+        "stack": "React",
+        "description":"This is a small clone of youtube!!!",
+        "note": "Note:- Live version will be available soon..",
+        "tools":["React","Semantic UI"],
+        "githubLink": "https://github.com/Swejal-web/Mini-Youtube",
+        "live":"cdhfsk",
+        "imageCover": "/yotube.PNG"
+        }
+   
+]

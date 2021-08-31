@@ -1,0 +1,8 @@
+{
+    "name" : "Swejal Shrestha",
+    "shortInfo" : "I'm a FullStack Developer(MERN)",
+    "aboutMe": "I'm a Computer Engineer, currently pursuing my career in the field of Software Development and Machine Learning.My motto is not just to depend on a particular framework but willing to learn new technologies needed to solve any problem.",
+    "aboutMe2nd": "Here are some of the tools I've been working with recently :-",
+    "tools": ["html","css","javscript","python","react","node","material ui","mongodb","sql","tensorflow"],
+    "image" : "/swejal1.jpg"
+}

@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+* {
+    font-family:'Poppins', sans-serif;
+}
+
+
+
+.section {
+    width:100%;
+    min-height: 100vh;
+    background: #101010;
+    margin-left: 30px;
+}
+
+ .container {
+    width: 80%;
+    display: block;
+    margin: auto;
+   padding-top: 55px;
+} 
+
+.content-section {
+    float: left;
+    width: 50%;
+}
+
+
+.image-section {
+    margin-top: 50px;
+    
+    float: right;
+    width: 40%;
+  
+}
+
+
+.image-section img {
+    width: 250px;
+    height: 330px;
+    border: double 5px;
+    box-shadow: 5px 5px 5px grey;
+} 
+
+.text {
+    
+    color:white;
+    font-size: 3rem;
+
+}
+
+.content-section .text {
+    margin-top: 20px;
+}
+
+/* .button {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+} */
+
+.arrow,
+.arrow:before {
+  position: absolute;
+  left: 50%;
+}
+
+.arrow {
+  width: 40px;
+  height: 40px;
+  top: 80%;
+  margin: 0px 0 0 -20px;
+  -webkit-transform: rotate(45deg);
+  border-left: none;
+  border-top: none;
+  border-right: 2px #fff solid;
+  border-bottom: 2px #fff solid;
+}
+  
+.arrow:before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  margin: -10px 0 0 -10px;
+  border-left: none;
+  border-top: none;
+  border-right: 1px #fff solid;
+  border-bottom: 1px #fff solid;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: arrow;
+}
+
+@media only screen and (max-width:900px) {
+  .section {
+    margin-left: 10px;
+  }
+  .content-section {
+    width: 100%;
+        
+    flex-direction: column-reverse;
+  }
+  .image-section {
+    flex-direction: column-reverse;
+    width: 85%;
+    margin-bottom: 20px;
+  }
+  .image-section img {
+    width: 210px;
+    height: 280px;
+} 
+  .arrow {
+    top: 90%;
+    left: 45%;
+   
+  }
+}
+
+
+@keyframes arrow {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-10px, -10px);
+
+    }
+}
+  
+  
+  
+  
